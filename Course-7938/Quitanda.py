@@ -2,8 +2,6 @@
 # apresentar as opções de frutas, e a cada vez que você escolher a fruta desejada, a fruta
 # deverá ser adicionada a uma cesta de compras.
 
-cesta = {}
-
 # Menu principal:
 # 1 Quitanda:
 # 2 1: Ver cesta
@@ -24,6 +22,7 @@ cesta = {}
 # Você deverá validar as opções digitadas pelo usuário (caso ele digitar algo errado, a mensagem
 # Digite uma opção inválida)
 
+cesta = {}
 quitanda = {
     'Banana': 3.50,
     'Melancia': 7.50,
