@@ -1,0 +1,26 @@
+import unittest
+import operacoes
+
+class TestOperacoes(unittest.TestCase):
+    def test_soma(self):
+        esperado = 5
+        certo = operacoes.somar(3,2)
+        self.assertEqual(esperado,certo)
+
+    def test_diminuir(self):
+        esperado = 1
+        certo = operacoes.diminuir(3,2)
+        self.assertEqual(esperado,certo)
+
+    def test_dividir(self):
+        esperado = 2
+        certo = operacoes.dividir(4,2)
+        self.assertEqual(esperado,certo)
+
+    def test_multiplicar(self):
+        esperado = 8
+        certo = operacoes.multiplicar(2,4)
+        self.assertEqual(esperado,certo)
+
+if __name__ == '__main__':
+    unittest.main()
